@@ -1,7 +1,9 @@
 # VectorQuantization
 
 • Vector quantization (VQ) is a block-coding technique that quantizes blocks of data instead of single sample. VQ exploits relation existing between neighboring signal samples by quantizing them together.
+
 • In general, a VQ scheme can be divided into two parts: the encoding procedure, and the decoding procedure which is depicted in figure.
+
 • At, the encoder, input image is partitioned into a set of non- overlapping image blocks. The closest code word in the code hook is then found for each image block.
 • Here, the closest code word for a given block is the one in the code book that has the minimum squared Euclidean distance from the input block.
 • Next, the corresponding index for each searched closest code word is transmitted to the decoder.
